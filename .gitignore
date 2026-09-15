@@ -1,0 +1,59 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies and debug output
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated test, coverage, and build output
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Local runtime and media artifacts
+*.log
+tmp/
+temp/
+uploads/
+recordings/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+
+# Model and experiment artifacts
+*.pt
+*.onnx
+*.bin
+*.h5
+*.ckpt
+model/saved_models/
+model/checkpoints/
+model/outputs/
+model/runs/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

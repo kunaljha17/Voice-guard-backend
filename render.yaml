@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: voiceguard-backend
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ML_SERVICE_URL
+        value: https://legendary-space-disco-5g7q7rpjrpq6cpp79-8000.app.github.dev
+      - key: INFERENCE_URL
+        value: https://legendary-space-disco-5g7q7rpjrpq6cpp79-8000.app.github.dev
