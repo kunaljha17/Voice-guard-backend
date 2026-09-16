@@ -16,7 +16,7 @@
 
 ### 🔗 Cross-Repository Navigation
 - **Looking for the User Interface & Forensic Dashboard?**  
-  👉 **[Explore Frontend Documentation & Architecture](../frontend/README.md)**
+  👉 **[Explore Frontend Documentation & Architecture](https://github.com/kunaljha17/Voice-guard-frontend.git)**
 
 ---
 
@@ -502,4 +502,4 @@ The backend includes a production-ready `render.yaml` specification for zero-con
 ### 👥 Maintainers & Contributors
 - **VoiceGuard AI Engineering Team** — Smart India Hackathon (SIH 2026)
 - Core Repositories: `voice-guard-prototype` / `EchoNova-project`
-- Documentation Link: **[Frontend Architecture](../frontend/README.md)**
+- Documentation Link: **[Frontend Architecture](https://github.com/kunaljha17/Voice-guard-frontend.git)**
